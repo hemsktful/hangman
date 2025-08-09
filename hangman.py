@@ -42,8 +42,7 @@ def hangman (word):
                 .format(word))
 
 
-lists =["cat", "long", "snyggjocke", "sexmaskin", "knulldoktorn","assnyggajocke",
-        "stora bröst"]
+lists =["cat"]
 len(lists)
 rndm = random.randint(0,len(lists)-1)
 
